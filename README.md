@@ -9,13 +9,13 @@ easyEditor
 <script src="js/easyEditor.js"></script>
 ```
 html你只需要一个div
-
-	<div id="editor" style="width:500px;height:300px;"></div>
-
+```html
+<div id="editor" style="width:500px;height:300px;"></div>
+```
 我们需要实例化
-
-    var editor = new EasyEditor('editor');
-    
+```javascript
+var editor = new EasyEditor('editor');
+```
 插入表情
 
 	/**
