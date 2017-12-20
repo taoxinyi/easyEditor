@@ -16,7 +16,7 @@ html你只需要一个div
 
     var editor = new EasyEditor('editor');
     
-插入标签
+插入表情
 
 	/**
      *
