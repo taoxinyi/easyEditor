@@ -4,7 +4,7 @@ easyEditor
 ====================
 
 首先你需要引入css与JS
-```
+```html
 <link rel="stylesheet" href="css/easyEditor.css" />
 <script src="js/easyEditor.js"></script>
 ```
