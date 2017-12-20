@@ -5,8 +5,8 @@ easyEditor
 
 首先你需要引入css与JS
 ```
-    <link rel="stylesheet" href="css/easyEditor.css" />
-    <script src="js/easyEditor.js"></script>
+<link rel="stylesheet" href="css/easyEditor.css" />
+<script src="js/easyEditor.js"></script>
 ```
 html你只需要一个div
 
