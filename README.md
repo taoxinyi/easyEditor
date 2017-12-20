@@ -20,10 +20,10 @@ var editor = new EasyEditor('editor');
 ```javascript
 /**
 *
-* @param {object} 
-*	src {string} 表情路径 
-*	remark {string} 表情说明
-*	afterInsert {function} 插入后的回调函数
+* @param {object} option
+* @param {string} option.src 表情路径 
+* @param {string} option.remark 表情说明
+* @param {function} option.afterInsert 插入后的回调函数
 * @return {object} editor Object
 */
 
