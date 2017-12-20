@@ -17,26 +17,24 @@ html你只需要一个div
 var editor = new EasyEditor('editor');
 ```
 插入表情
+```javascript
+/**
+*
+* @param {object} 
+*	src {string} 表情路径 
+*	remark {string} 表情说明
+*	afterInsert {function} 插入后的回调函数
+* @return {object} editor Object
+*/
 
-	/**
-     *
-     * @param {object} 
-     *			src {string} 表情路径 
-     *			remark {string} 表情说明
-     *			afterInsert {function} 插入后的回调函数
-     *
-     *
-     * @return {object} editor Object
-     */
-    
-    editor.insertEmoji({
-		src : 'emoji/1.gif', 
-		remark : '笑脸',
-		afterInsert : function(){
-			
-		}
-	});
+editor.insertEmoji({
+	src : 'emoji/1.gif', 
+	remark : '笑脸',
+	afterInsert : function(){
 
+	}
+});
+```
 插入行块
 
 	/**
