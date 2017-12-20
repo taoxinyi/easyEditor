@@ -46,7 +46,7 @@ editor.insertEmoji({
 *
 */
     
-editor.insertEmoji({
+editor.insertBlock({
 	text : '@somebody', 
 	color : '#f00',
 	afterInsert : function(){
