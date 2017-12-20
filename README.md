@@ -68,4 +68,3 @@ editor.sel; // selection 对象
 editor.ran; // range 对象
 editor.obj; // 编辑器对象(即文中id为editor的div);
 ```
-功能介绍完毕，是不是很简单，如果转载，请标注出处哦，以后会陆续新增功能，多谢关注 Mr.Li
