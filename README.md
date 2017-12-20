@@ -19,55 +19,53 @@ var editor = new EasyEditor('editor');
 插入表情
 ```javascript
 /**
+* @desc 插入表情方法
+* @param {object} opt 
+* @param {string} opt.src 表情路径 
+* @param {string} opt.remark 表情说明
+* @param {function} opt.afterInsert 插入后的回调函数
 *
-* @param {object} option
-* @param {string} option.src 表情路径 
-* @param {string} option.remark 表情说明
-* @param {function} option.afterInsert 插入后的回调函数
-* @return {object} editor Object
 */
 
 editor.insertEmoji({
 	src : 'emoji/1.gif', 
 	remark : '笑脸',
 	afterInsert : function(){
-
+		//do something
 	}
 });
 ```
 插入行块
-
-	/**
-     * 
-     * @param {object} 
-	 *		  text {string} 文字 
-	 *		  color {string} 文字颜色
-	 *		  afterInsert {function} 插入后的回调函数
-	 *
-	 *
-     * @return {object} editor Object
-     */
+```javascript
+/**
+* @desc 插入行块方法
+* @param {object} opt
+* @param {string} opt.text 文字 
+* @param {string} opt.color 文字颜色
+* @param {function} opt.afterInsert 插入后的回调函数
+*
+*/
     
-    editor.insertEmoji({
-		text : '@somebody', 
-		color : '#f00',
-		afterInsert : function(){
-			
-		}
-	});
-
+editor.insertEmoji({
+	text : '@somebody', 
+	color : '#f00',
+	afterInsert : function(){
+		//do something
+	}
+});
+```
 获取编辑器里面的html
-	
-	var myhtml = editor.getContent(false);
-
+```javascript
+var myhtml = editor.getContent(false);
+```
 获取编辑器里面的text
-	
-	var mytext = editor.getContent(true);
-	
+```javascript
+var mytext = editor.getContent(true);
+```
 属性
-	
-	editor.sel; // selection 对象
-	editor.ran; // range 对象
-	editor.obj; // 编辑器对象(即文中id为editor的div);
-	
+```javascript
+editor.sel; // selection 对象
+editor.ran; // range 对象
+editor.obj; // 编辑器对象(即文中id为editor的div);
+```
 功能介绍完毕，是不是很简单，如果转载，请标注出处哦，以后会陆续新增功能，多谢关注 Mr.Li
