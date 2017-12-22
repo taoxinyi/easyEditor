@@ -57,6 +57,10 @@ EasyEditor.prototype = {
 		}
 		if(document.activeElement.id = self.id) self.setRange();
 	},
+	placeholder:function(holder){
+		this.obj.setAttribute('placeholder',holder);
+		return this;
+	},
 	insertHTML: function(html) {
 		if(this.ran == undefined) {
 			this.obj.focus();
