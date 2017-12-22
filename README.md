@@ -19,7 +19,7 @@ var editor = new EasyEditor('editor');
 如果你需要placeholder
 ```javascript
 /**
-* @desc 插入placeholder=
+* @desc 插入placeholder
 * @param {string} placeholder实现
 *
 */
