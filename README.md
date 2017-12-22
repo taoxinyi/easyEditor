@@ -16,6 +16,15 @@ html你只需要一个div
 ```javascript
 var editor = new EasyEditor('editor');
 ```
+如果你需要placeholder
+```javascript
+/**
+* @desc 插入placeholder=
+* @param {string} placeholder实现
+*
+*/
+editor.placeholder(str);
+```
 插入表情
 ```javascript
 /**
