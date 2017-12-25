@@ -139,6 +139,7 @@ EasyEditor.prototype = {
 			res = res.replace(/#easyEditor#/g,'<br />');
 		}
 		this.obj.innerHTML = oldHtml;
+		this.obj.focus();
 		return res;
 	},
 	editorHolder: function(holder) {
