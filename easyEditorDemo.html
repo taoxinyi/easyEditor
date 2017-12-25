@@ -65,7 +65,7 @@
 			}
 			
 			#emoji_list {
-				width: 300px;
+				width: 280px;
 				height: 85px;
 				padding: 4px;
 				position: absolute;
@@ -73,16 +73,7 @@
 				left: 0;
 				border: 1px solid #ccc;
 				border-radius: 8px;
-				display: -webkit-box;
-				display: -moz-box;
-				display: -webkit-flex;
-				display: -moz-flex;
-				display: -ms-flexbox;
-				display: flex;
 				display: none;
-				flex-flow: wrap;
-				justify-content: space-between;
-				align-content: space-between;
 				background-color: #fff;
 			}
 			
@@ -208,7 +199,7 @@
 
 			//表情面板顯示
 			addEvent(emojiBtn, 'click', function() {
-				emojiBox.style.display = 'flex';
+				emojiBox.style.display = 'block';
 			});
 			//表情面板消失
 			maskClick(emojiBox, function() {
