@@ -15,7 +15,7 @@ html你只需要一个div
 ```
 我们需要实例化
 ```javascript
-var editor = new EasyEditor('editor');
+var editor = easyEditor('editor');
 ```
 如果你需要placeholder
 ```javascript
@@ -71,10 +71,4 @@ var myhtml = editor.getContent(false);
 获取编辑器里面的text
 ```javascript
 var mytext = editor.getContent(true);
-```
-属性
-```javascript
-editor.sel; // selection 对象
-editor.ran; // range 对象
-editor.obj; // 编辑器对象(即文中id为editor的div);
 ```
